@@ -1,0 +1,62 @@
+header{
+    margin-left: 120px;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 100px);
+    width: 100%;
+    margin-left: 100px;
+}
+
+.bg-img{
+    grid-column-start: 2;
+    grid-row-end: 2;
+}
+
+#signup1{
+    font-size: 25px;
+    font-weight: 200px;
+    margin-left: 30px;
+}
+#signup{
+    grid-column: 1;
+    grid-row: 5;
+    background-color: rgb(32, 32, 255);
+    border-radius: 30px;
+    color: white;
+    margin-left: 50px;
+    height: 40px;
+    width: 150px;
+
+}
+#user1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-radius: 50px;
+}
+#email1{
+    grid-column-start: 1;
+    grid-row: 3;
+}
+#password1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+}
+#signupbutton{
+    grid-column: 1 /5;
+    float: center;
+}
+#links{
+    grid-column: 1 /7;
+    margin-left: 50px;
+    
+}
+input{
+    border-radius: 100px;
+    height: 30px;
+    width: 200px;
+}
